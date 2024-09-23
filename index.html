@@ -1,18 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .lexend-font {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+
 </head>
-<body>
-    <header>
-<nav>
-    
-</nav>
+
+<body class="lexend-font scroll-smooth">
+    <header class="">
+        <nav>
+            <div class="bg-yellow-50 pb-8 pt-3">
+                <div class="navbar w-11/12 mx-auto">
+                    <div class="navbar-start">
+                        <button class="px-8 py-3 rounded-lg text-xl font-semibold bg-lime-300">
+                            <a href="blog.html">Blog</a>
+                        </button>
+                    </div>
+                    <div class="navbar-center gap-2">
+                        <img src="./assets/logo.png" alt="">
+                        <a class=" text-xl font-semibold">Donate Bangladesh</a>
+                    </div>
+                    <div class="navbar-end">
+                        <img src="./assets/coin.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center mt-20">
+                <button class="px-8 py-3 rounded-lg text-xl font-semibold ">
+                    <a href="">Donation</a>
+                </button>
+                <button class="px-8 py-3 rounded-lg text-xl font-semibold bg-lime-300">
+                    <a href="">History</a>
+                </button>
+            </div>
+        </nav>
     </header>
-    <main>
+
+    <main class="w-10/12 mx-auto mt-12">
+        <div class="block lg:flex  p-5 border-2 rounded-3xl ">
+            <img class="w-full lg:w-auto" src="./assets/noakhali.png" alt="">
+            <div>
+                <div class="ml-1 lg:ml-6 mb-4 bg-gray-100 px-2 py-2 rounded-lg w-2/12">
+                    <img src="./assets/coin.png" alt="">
+                </div>
+                <h3 class="text-2xl font-extrabold mt-4 lg:mt-0 ml-1 lg:ml-6 mb-4">Donate for Flood at Noakhali,
+                    Bangladesh</h3>
+                <p class="text-base font-medium ml-1 lg:ml-6 mb-5"> The recent floods in Noakhali have caused
+                    significant damage to homes infrastructure. Your donation will help provide essential supplies and
+                    to those affected by this disaster. Every contribution, big or small, makes difference. Please join
+                    us in supporting the relief efforts and making a positive impact on the lives of those in need. </p>
+
+                <div class="ml-1 lg:ml-6">
+                    <input type="text" placeholder="Write Donation Amount" name="" id="" class="block w-full px-3 py-4 border-2 rounded-lg ">
+
+                <button class="bg-lime-300 block w-full px-8 py-4 mt-5 rounded-lg text-xl font-semibold">Donate Now</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block lg:flex  p-5 border-2 rounded-3xl mt-8">
+            <img class="w-full lg:w-auto h-auto lg:h-[420px]" src="./assets/feni.png" alt="">
+            <div>
+                <div class="ml-1 lg:ml-6 mb-4 bg-gray-100 px-2 py-2 rounded-lg w-2/12">
+                    <img src="./assets/coin.png" alt="">
+                </div>
+                <h3 class="text-2xl font-extrabold mt-4 lg:mt-0 ml-1 lg:ml-6 mb-4">Donate for Flood Relief in Feni,Bangladesh</h3>
+                <p class="text-base font-medium ml-1 lg:ml-6 mb-5"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need. </p>
+
+                <div class="ml-1 lg:ml-6">
+                    <input type="text" placeholder="Write Donation Amount" name="" id="" class="block w-full px-3 py-4 border-2 rounded-lg ">
+
+                <button class="bg-lime-300 block w-full px-8 py-4 mt-5 rounded-lg text-xl font-semibold">Donate Now</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block lg:flex  p-5 border-2 rounded-3xl mt-8">
+            <img class="w-full lg:w-auto h-auto lg:h-[420px]" src="./assets/quota-protest.png" alt="">
+            <div>
+                <div class="ml-1 lg:ml-6 mb-4 bg-gray-100 px-2 py-2 rounded-lg w-2/12">
+                    <img src="./assets/coin.png" alt="">
+                </div>
+                <h3 class="text-2xl font-extrabold mt-4 lg:mt-0 ml-1 lg:ml-6 mb-4">Aid for Injured in the Quota Movement</h3>
+                <p class="text-base font-medium ml-1 lg:ml-6 mb-5"> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+
+                <div class="ml-1 lg:ml-6 ">
+                    <input type="text" placeholder="Write Donation Amount" name="" id="" class="block w-full px-3 py-4 border-2 rounded-lg ">
+
+                <button class="bg-lime-300 block w-full px-8 py-4 mt-5 rounded-lg text-xl font-semibold">Donate Now</button>
+                </div>
+
+            </div>
+        </div>
 
     </main>
+    <footer class="bg-yellow-50 mt-10 h-32">
+
+    </footer>
 </body>
+
 </html>

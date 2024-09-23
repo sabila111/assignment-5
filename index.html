@@ -24,13 +24,16 @@
 
 <body class="lexend-font scroll-smooth">
     <header class="">
-        <nav>
+        <nav  id="navbar" class="fixed top-0 w-full bg-white/20 backdrop-blur-sm z-50 pb-2 transition duration-300">
+
             <div class="bg-yellow-50 pb-8 pt-3">
                 <div class="navbar w-11/12 mx-auto">
                     <div class="navbar-start">
-                        <button class="px-8 py-3 rounded-lg text-xl font-semibold bg-lime-300">
-                            <a href="blog.html">Blog</a>
-                        </button>
+                        <a href="blog.html">
+                            <button class="px-8 py-3 rounded-lg text-xl font-semibold bg-lime-300">
+                            Blog
+                            </button>
+                        </a>
                     </div>
                     <div class="navbar-center gap-2">
                         <img src="./assets/logo.png" alt="">
@@ -53,7 +56,7 @@
         </nav>
     </header>
 
-    <main class="w-10/12 mx-auto mt-12">
+    <main class="w-10/12 mx-auto mt-12 pt-60">
         <div class="block lg:flex  p-5 border-2 rounded-3xl ">
             <img class="w-full lg:w-auto" src="./assets/noakhali.png" alt="">
             <div>
@@ -113,9 +116,21 @@
         </div>
 
     </main>
-    <footer class="bg-yellow-50 mt-10 h-32">
+    <footer class="bg-yellow-50 mt-10 h-32"> </footer>
 
-    </footer>
+
+    <script>
+        window.onscroll = function() {
+            var navbar = document.getElementById("navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("bg-white/80");
+                navbar.classList.remove("bg-white/20");
+            } else {
+                navbar.classList.add("bg-white/20");
+                navbar.classList.remove("bg-white/80");
+            }
+        }
+    </script>
 </body>
 
 </html>

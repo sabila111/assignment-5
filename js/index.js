@@ -16,6 +16,8 @@ donateButton.addEventListener('click', function(){
 
     const minusMoney = totalMoney-donation
     document.getElementById('total-money').innerText= minusMoney
+
+    document.getElementById('donate').value = ''
      
     // show modal
     modal.showModal()
@@ -58,6 +60,8 @@ donateButton2.addEventListener('click', function(){
 
         const minusMoney2 = totalMoney2-donation2
         document.getElementById('total-money').innerText= minusMoney2
+
+        document.getElementById('donate').value = ''
 
         // show modal
     modal.showModal()
@@ -102,6 +106,8 @@ donateButton3.addEventListener('click', function(){
 
     const minusMoney3 = totalMoney3-donation3
     document.getElementById('total-money').innerText= minusMoney3
+
+    document.getElementById('donate').value = ''
 
     // show modal
 modal.showModal()
